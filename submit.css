@@ -1,0 +1,67 @@
+.box {
+    height: 350px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.body {
+    background-image: url(./colorful-background-with-blue-purple-gradient_483537-4229.avif); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.email {
+    height: 27px;
+    width: 230px;
+    border-bottom: 1.5px solid lightgray;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+} 
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.PhoneNumber {
+    height: 27px;
+    width: 230px;
+    border-bottom: 1.5px solid lightgray;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.Password {
+    height: 27px;
+    width: 230px;
+    border-bottom: 1.5px solid lightgray;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.login {
+    height: 27px;
+    width: 150px;
+    border-radius: 50px;
+    border: 1px solid mediumpurple;
+    cursor: pointer;
+    background-color: white;
+}
